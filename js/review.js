@@ -59,6 +59,6 @@
         currentSlideIdx = currentSlideIdx - 1 < 0 ? testimonialsSlides.length - 1 : currentSlideIdx - 1;
         renderSlides(testimonialsSlides);
     });
-setInterval(nextSlide, 3000);
+setInterval(nextSlide, 5000);
 
 })();
