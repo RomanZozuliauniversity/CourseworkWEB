@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Стікери</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/alert.css">
+    <link rel="stylesheet" href="css/contanct.css">
+    <link rel="shortcut icon" href="img/baby-yoda.svg" type="image/x-icon">
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">Sticker</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbar">
+                    <div class="navbar-nav ">
+                        <a class="nav-link" href="index.html">Продукти</a>
+                        <a class="nav-link" href="index.html">Відгуки</a>
+                        <a class="nav-link" href="#">Контакти</a>
+                        <a class="nav-link" href="about_us.html">Про нас</a>
+                        <a class="nav-link cart" href="#" data-bs-toggle="modal" data-bs-target="#modal-cart">
+                            Кошик
+                            <span class="badge bg-dark cart-badge"></span>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="contact-form" class="contact-form-container">
+        <div class="contact-map container__elem">
+            <iframe class="readyescape__map"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1135.1322933093315!2d24.00883288511662!3d49.83440466527363!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473addbdda776091%3A0xee31732893e537c3!2zNS3RgtC40Lkg0LrQvtGA0L_Rg9GBINGW0L3RgdGC0LjRgtGD0YLRgyDRltC80LXQvdGWINCQ0LrQsNC00LXQvNGW0LrQsCDQkNC90LDRgtC-0LvRltGPINCG0LPQvdCw0YLQvtCy0LjRh9Cw!5e0!3m2!1suk!2sua!4v1683464668754!5m2!1suk!2sua" 
+                allowfullscreen="" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="contact-form container__elem">
+            <form class="escape__form form" action="https://formspree.io/f/myyayayg" method="POST">
+                <div class="form__container">
+                    <h2 class="form__title">Ready to Escape?</h2>
+                    <p class="form__text">
+                        Complete the form below, specify the room, the date and the quantity of players, and
+                        we will contact you to confirm your booking.
+                    </p>
+                    <input class="form__fullname form__elem" name="fullname" type="text" placeholder="Enter your full name*"
+                        required />
+                    <input class="form__phonenumber form__elem" name="phonenumber" pattern="[0-9]{7}" type="tel"
+                        placeholder="Enter your phone number*" required />
+                    <input class="form__email form__elem" name="email" type="email" placeholder="Enter your e-mail*"
+                        required />
+                    <input class="form__specifydetails form__elem" name="details" type="text"
+                        placeholder="Specify the details" />
+                    <button class="form__submit form__elem" type="submit">Start a Quest!</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <div class="modal fade" id="modal-cart" tabindex="-1" aria-labelledby="product-info-modalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="cartLabel">Кошик</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="cart-product-list-container cart-container"></div>
+                    <hr>
+                    <div class="container">
+                        <form class="form-contacts">
+                            <div class="form-group row">
+                                <label for="client-name" class="col-4 col-form-label">Ваше імʼя:</label>
+                                <input class="form-control col-8" type="text" id="client-name" name="name" required>
+                            </div>
+                            <div class="form-group row">
+                                <label for="client-email" class="col-4 col-form-label">Ваш email:</label>
+                                <input class="form-control col-8" type="email" id="client-email" name="email" required>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary close-btn" data-bs-dismiss="modal">Закрити</button>
+                    <button class="btn btn-primary order">Замовити</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">Sticker</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbar">
+                    <div class="navbar-nav ">
+                        <a class="nav-link" href="index.html">Продукти</a>
+                        <a class="nav-link" href="index.html">Відгуки</a>
+                        <a class="nav-link" href="#">Контакти</a>
+                        <a class="nav-link" href="about_us.html">Про нас</a>
+                        </a>
+                    </div>
+                </div>
+                <div class="collapse navbar-collapse" id="navbar">
+                    <a class="nav-link" href="https://www.twitter.com">
+                        <img src="img/twitter-logo.svg" alt="Twitter Logo"></a>
+                    <a class="nav-link" href="https://www.facebook.com">
+                        <img src="img/facebook-logo.svg" alt="Facebook Logo"></a>
+                    <a class="nav-link" href="https://www.instagram.com">
+                        <img src="img/instagram-logo.svg" alt="Instagram Logo"></a>
+                </div>
+            </div>
+        </nav>
+
+
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+
+
+    <script src="js/alert.js"></script>
+    <script src="js/products-service.js"></script>
+    <script src="js/cart.js"></script>
+    <script src="js/product-list.js"></script>
+</body>
+
+</html>

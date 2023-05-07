@@ -1,0 +1,115 @@
+[
+    {
+        "id": "1",
+        "title": "Baby Yoda",
+        "image": "baby-yoda.svg",
+        "description": "Наклейка Baby Yoda",
+        "price": 49.99
+    },
+    {
+        "id": "2",
+        "title": "Банан",
+        "image": "banana.svg",
+        "description": "Банан наклейка",
+        "price": 19.99
+    },
+    {
+        "id": "3",
+        "title": "Дівчина",
+        "image": "girl.svg",
+        "description": "Дівчина наклейка",
+        "price": 24.99
+    },
+    {
+        "id": "4",
+        "title": "Вікінг",
+        "image": "viking.svg",
+        "description": "Наклейка Вікінг",
+        "price": 34.99
+    },
+    {
+        "id": "5",
+        "title": "Художник",
+        "image": "sticker-coffee.png",
+        "description": "Наклейка художника який любить каву",
+        "price": 29.99
+    },
+    {
+        "id": "6",
+        "title": "Зроби щось",
+        "image": "sticker-create.png",
+        "description": "Наклейка зроби щось ",
+        "price": 44.99
+    },
+    {
+        "id": "7",
+        "title": "Інструменти Художника",
+        "image": "sticker-creative-tools.png",
+        "description": "Наклейка інструменти художника",
+        "price": 30.99
+    },
+    {
+        "id": "8",
+        "title": "Художник",
+        "image": "sticker-creativity.png",
+        "description": "Наклейка художника рука художника",
+        "price": 9.99
+    },
+    {
+        "id": "9",
+        "title": "Ти все звожеш",
+        "image": "sticker-creativity.png",
+        "description": "Наклейка ти все зможеш",
+        "price": 39.99
+    },
+    {
+        "id": "10",
+        "title": "Ідея",
+        "image": "sticker-idea.png",
+        "description": "Наклейка ідея",
+        "price": 99.99
+    },
+    {
+        "id": "11",
+        "title": "Продовжую вчитися",
+        "image": "sticker-learning.png",
+        "description": "Наклейка продовжую вчитися",
+        "price": 8.99
+    },
+    {
+        "id": "12",
+        "title": "Лікарня",
+        "image": "sticker-hospital.png",
+        "description": "Наклейка лікарня",
+        "price": 39.99
+    },
+    {
+        "id": "13",
+        "title": "Потік ідей",
+        "image": "sticker-let-your-ideas-flow.png",
+        "description": "Наклейка потік ідей",
+        "price": 40.99
+    },
+    {
+        "id": "14",
+        "title": "Радіо",
+        "image": "sticker-radio.png",
+        "description": "Наклейка радіо",
+        "price": 25.78
+    },
+    {
+        "id": "15",
+        "title": "В майбутнє",
+        "image": "sticker-rocket.png",
+        "description": "Наклейка в майбутнє",
+        "price": 26.56
+    },
+    {
+        "id": "16",
+        "title": "Капелюшок Відьми",
+        "image": "sticker-witch-hat.png",
+        "description": "Наклейка капелюшок Відьми",
+        "price": 29.99
+    }
+
+]
