@@ -41,7 +41,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #f5eed9;
+    background-color: #3757f6;
     padding: 50px 10px;
 }
 
@@ -60,14 +60,14 @@
     line-height: 1;
     margin: 0 0 30px;
     padding: 0;
-    color: #0b0000;
+    color: #ffffff;
 }
 
 .form__text {
     font-size: 17px;
     line-height: 1.5;
     margin-bottom: 30px;
-    color: #121313;
+    color: #ffffff;
 }
 
 .form__elem {
@@ -86,7 +86,7 @@
 
 .form__submit {
     margin-bottom: 0;
-    background-color: rgb(242, 237, 220);
+    background-color: rgb(60, 178, 247);
     color: rgb(13, 1, 1);
     box-shadow: 1px 6px 16px 1px rgba(0, 0, 0, 0.57);
 }

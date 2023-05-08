@@ -1,0 +1,38 @@
+.title-about-us {
+    margin-left: 60px;
+}
+
+.info-about-us {
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.about_us_img {
+    display: flex;
+}
+
+.firstimg {
+    margin-left: 100px;
+    width: 500px;
+}
+
+.secondimg {
+    margin-left: 200px;
+    width: 500px;
+}
+
+@media(max-width: 768px) {
+    .about_us_img {
+        display: grid;
+    }
+
+    .firstimg {
+        margin-left: 0px;
+        width: 500px;
+    }
+
+    .secondimg {
+        margin-left: 0px;
+        width: 500px;
+    }
+}
