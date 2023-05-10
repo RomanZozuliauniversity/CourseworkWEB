@@ -31,7 +31,7 @@
         "id": "5",
         "title": "Художник",
         "image": "sticker-coffee.png",
-        "description": "Наклейка художника який любить каву",
+        "description": "Наклейка художника ",
         "price": 29.99
     },
     {
@@ -52,7 +52,7 @@
         "id": "8",
         "title": "Художник",
         "image": "sticker-creativity.png",
-        "description": "Наклейка художника рука художника",
+        "description": "Наклейка рука художника  ",
         "price": 9.99
     },
     {
